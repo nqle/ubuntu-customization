@@ -1,0 +1,40 @@
+partial
+xkb_types "arrows_navigation_types" {
+    type "CUSTOM_ARROWS" {
+        modifiers = Control+Alt+Shift+Mod4;//+Mod2;
+        map[None] = Level1;
+        map[Shift] = Level2;
+        map[Alt] = Level3;
+		map[Shift+Alt] = Level4;
+        map[Control] = Level5;
+        map[Shift+Control] = Level6;
+		map[Shift+Mod4] = Level7;
+        //map[Mod2] = Level8;
+        preserve[Shift] = Shift;
+        preserve[Shift+Alt] = Shift;
+		preserve[Shift+Control] = Shift;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Shift";
+        level_name[Level3] = "Alt";
+		level_name[Level4] = "Shift Alt";
+        level_name[Level5] = "Control";
+        level_name[Level6] = "Shift Ctrl";
+		level_name[Level7] = "Shift Mod4";
+        //level_name[Level8] = "Mod2";
+    };
+
+	// Mod4 : physical ctrl key / super
+	type "CUSTOM_TAB" {
+        modifiers = Control+Shift;
+        map[None] = Level1;
+        map[Shift] = Level2;
+        map[Control] = Level3;
+		map[Shift+Control] = Level4;
+        preserve[Shift] = Shift;
+		preserve[Shift+Control] = Shift;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Shift";
+        level_name[Level3] = "Control";
+		level_name[Level4] = "Shift Control";
+    };
+};

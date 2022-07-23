@@ -1,0 +1,226 @@
+[apps/update-manager]
+first-run=false
+launch-count=3
+launch-time=int64 1658450165
+
+[com/mattjakeman/ExtensionManager]
+last-used-version='0.3.0'
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1658450162
+
+[org/gnome/control-center]
+last-panel='sound'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+per-window=false
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus', 'firefox-firefox', 'teams', 'code', 'io-snapcraft-sessionagent', 'org-gnome-fileroller', 'apport-gtk']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/code]
+application-id='code.desktop'
+
+[org/gnome/desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/io-snapcraft-sessionagent]
+application-id='io.snapcraft.SessionAgent.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/teams]
+application-id='teams.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/peripherals/mouse]
+speed=0.14705882352941169
+
+[org/gnome/desktop/peripherals/touchpad]
+speed=0.34558823529411775
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/wm/keybindings]
+close=['<Primary>q']
+maximize=['<Alt><Super>Up']
+move-to-monitor-down=@as []
+move-to-monitor-left=@as []
+move-to-monitor-right=@as []
+move-to-monitor-up=@as []
+move-to-workspace-1=@as []
+move-to-workspace-last=@as []
+move-to-workspace-left=@as []
+move-to-workspace-right=@as []
+switch-group=['<Primary>grave']
+switch-group-backward=['<Primary><Shift>grave']
+switch-to-workspace-left=['<Super>Left']
+switch-to-workspace-right=['<Super>Right']
+switch-windows=['<Primary>Tab']
+switch-windows-backward=['<Primary><Shift>Tab']
+unmaximize=['<Alt><Super>Down']
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'openlinks', 'spell', 'sort', 'docinfo', 'filebrowser']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/nqle/source/wayland-mouse-mapper'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=['<Alt><Super>Left']
+toggle-tiled-right=['<Alt><Super>Right']
+
+[org/gnome/nautilus/compression]
+default-compression-format='tar.xz'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=false
+sidebar-width=287
+
+[org/gnome/settings-daemon/plugins/media-keys]
+home=['<Primary><Shift>h']
+search=['<Primary>space']
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+disable-user-extensions=false
+enabled-extensions=['gestureImprovements@gestures']
+favorite-apps=['set-keymap.desktop', 'firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'teams.desktop', 'code.desktop', 'org.gnome.Terminal.desktop', 'virtualbox.desktop', 'org.remmina.Remmina.desktop', 'gnome-control-center.desktop']
+welcome-dialog-last-shown-version='42.0'
+
+[org/gnome/shell/extensions/gestureImprovements]
+allow-minimize-window=false
+enable-alttab-gesture=false
+enable-forward-back-gesture=true
+enable-window-manipulation-gesture=false
+forward-back-application-keyboard-shortcuts={'firefox.desktop': (1, false), 'org.chromium.Chromium.desktop': (1, false), 'org.gnome.gThumb.desktop': (2, false), 'org.gnome.Photos.desktop': (3, false), 'shotwell.desktop': (3, false), 'com.spotify.Client.desktop': (4, false), 'code-insiders.desktop': (5, false), 'com.gexperts.Tilix.desktop': (5, false), 'org.gnome.TextEditor.desktop': (5, false), 'firefox_firefox.desktop': (1, false)}
+pinch-3-finger-gesture='CLOSE_DOCUMENT'
+touchpad-pinch-speed=5.9299999999999997
+
+[org/gnome/shell/keybindings]
+toggle-overview=['<Super>Up']
+
+[org/gnome/shell/window-switcher]
+current-workspace-only=false
+
+[org/gnome/software]
+check-timestamp=int64 1658473920
+update-notification-timestamp=int64 1657341653
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/terminal/legacy/keybindings]
+move-tab-left='disabled'
+move-tab-right='disabled'
+next-tab='<Shift><Super>Right'
+prev-tab='<Shift><Super>Left'
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=173
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(856, 374)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=161
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1203, 902)
+
+[system/proxy]
+ignore-hosts=['localhost', '127.0.0.0/8', '::1', '*encowayhb.lokal', 'passwordsafe.lenze.com', 'confluence.encoway-services.de']
+mode='none'
+
+[system/proxy/http]
+host='fra4.sme.zscaler.net'
+port=10181
+
+[system/proxy/https]
+host='fra4.sme.zscaler.net'
+port=10181

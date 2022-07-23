@@ -1,0 +1,23 @@
+partial modifier_keys
+xkb_symbols "arrows_navigation" {
+    key   <UP> {
+        type[Group1] = "CUSTOM_ARROWS",
+        symbols[Group1] = [ Up    ], 
+        actions = [ NoAction(), NoAction(), Redirect(key=<UP>, clearmods=Alt, modifiers=Control), Redirect(key=<UP>, clearmods=Alt, modifiers=Shift+Control), Redirect(key=<PGUP>, clearmods=Control), Redirect(key=<PGUP>, clearmods=Control, modifiers=Shift), NoAction()] //, Redirect(key=<UP>, clearmods=Control, modifiers=Control) ]
+    };
+    key <LEFT> {
+        type[Group1] = "CUSTOM_ARROWS",    
+        symbols[Group1] = [ Left  ] ,
+        actions = [ NoAction(), NoAction(), Redirect(key=<LEFT>, clearmods=Alt, modifiers=Control), Redirect(key=<LEFT>, clearmods=Alt, modifiers=Shift+Control), Redirect(key=<HOME>, clearmods=Control), Redirect(key=<HOME>, clearmods=Control, modifiers=Shift), Redirect(key=<PGUP>, clearmods=all, modifiers=Control)] //, Redirect(key=<LEFT>, clearmods=Control) ]
+    };
+    key <DOWN> {
+        type[Group1] = "CUSTOM_ARROWS",
+        symbols[Group1] = [ Down  ], 
+        actions = [ NoAction(), NoAction(), Redirect(key=<DOWN>, clearmods=Alt, modifiers=Control), Redirect(key=<DOWN>, clearmods=Alt, modifiers=Shift+Control), Redirect(key=<PGDN>, clearmods=Control), Redirect(key=<PGDN>, clearmods=Control, modifiers=Shift), NoAction()] //, Redirect(key=<DOWN>, clearmods=Control, modifiers=Control) ]
+    };
+    key <RGHT> {
+        type[Group1] = "CUSTOM_ARROWS",    
+        symbols[Group1] = [ Right ],
+        actions = [ NoAction(), NoAction(), Redirect(key=<RGHT>, clearmods=Alt, modifiers=Control), Redirect(key=<RGHT>, clearmods=Alt, modifiers=Shift+Control), Redirect(key=<END>, clearmods=Control), Redirect(key=<END>, clearmods=Control, modifiers=Shift), Redirect(key=<PGDN>, clearmods=all, modifiers=Control)] //, Redirect(key=<RGHT>, clearmods=Control) ]
+    };
+};
